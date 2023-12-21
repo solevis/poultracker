@@ -1,0 +1,30 @@
+### Create Collection
+POST http://localhost:8080/api/collections
+Content-Type: application/json
+
+{
+  "laidDate": "2022-06-21",
+  "number": 2
+}
+
+### Update Collection
+PUT http://localhost:8080/api/collections
+Content-Type: application/json
+
+{
+  "id": 5,
+  "laidDate": "2022-06-21",
+  "number": 5
+}
+
+### Get All Collections
+GET http://localhost:8080/api/collections
+Accept: application/json
+
+### Find One Collection
+GET http://localhost:8080/api/collections/2022-06-21
+Accept: application/json
+
+### Delete One Collection
+DELETE http://localhost:8080/api/collections/2022-06-21
+Content-Type: application/x-www-form-urlencoded

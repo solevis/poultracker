@@ -1,0 +1,21 @@
+schema = 3
+
+[mod]
+  [mod."github.com/alexedwards/scs/v2"]
+    version = "v2.5.1"
+    hash = "sha256-XQACPazW1QfFaL3knJ80TMiz23StokPXfqaMSj6v50M="
+  [mod."github.com/caarlos0/env/v8"]
+    version = "v8.0.0"
+    hash = "sha256-iSawlNTw1Tto2lnZ/JjJbk8xQbA2slzFznAjxXqACuo="
+  [mod."github.com/go-chi/chi/v5"]
+    version = "v5.0.8"
+    hash = "sha256-BMr7IqnWSVYnRuEtsDmd0WD0v5sG15QUyaUaWTemG7A="
+  [mod."github.com/go-gorp/gorp/v3"]
+    version = "v3.1.0"
+    hash = "sha256-z8AJoWp3fDJMNMYAi8kJdtzXDv8QyAd6bPYE58b2urs="
+  [mod."github.com/mattn/go-sqlite3"]
+    version = "v1.14.16"
+    hash = "sha256-Ky0kas72AY0lpuRiC/fQk9rw9aJ6dvL9y1Ikw5PFzlA="
+  [mod."github.com/rubenv/sql-migrate"]
+    version = "v1.4.0"
+    hash = "sha256-VJpYWuP5xhP39gui3rEJOIPtYAn1k43OA4PYX4lCK34="

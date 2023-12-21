@@ -1,0 +1,35 @@
+{{define "chart"}}
+<!DOCTYPE html>
+<html lang="fr">
+
+{{ template "head" . }}
+
+<body>
+    {{ template "navbar" . }}
+
+    <div class="flex min-h-full flex-col justify-center p-6 lg:px-8">
+        <div class="sm:mx-auto sm:w-full sm:max-w-lg bg-red-100 p-2 rounded mt-4 hidden" id="error-panel"></div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-lg flex flex-col col-span-full shadow-md rounded p-4 mt-4">
+            <h2 class="text-3xl font-light text-gray-900 mb-6">
+                Trends
+            </h2>
+
+            <div style="width: 100%;">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/chart.umd.js"></script>
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/chart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCollectionsHistoryChart();
+        });
+    </script>
+</body>
+
+</html>
+{{end}}
