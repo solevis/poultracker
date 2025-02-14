@@ -23,6 +23,7 @@ pkgs.mkShell {
     pkgs.govulncheck
     pkgs.gotools
     pkgs.go-tools
+    pkgs.golangci-lint-langserver
     pkgs.delve
     pkgs.golangci-lint
     pkgs.air
